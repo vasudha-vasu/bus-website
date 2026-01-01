@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Bus Service</title>
+  <style>
+    /* Reset and basic styles */
+    body, h1, h2, p {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Hero section with background image */
+    .hero {
+      background-image: url("bus image.jpg"); 
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      position: relative;
+      color: white;
+      text-align: center;
+      .vertical-marquee {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+    }
+
+    .hero .overlay {
+      background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+    }
+
+    /* Form section */
+    .form-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    form {
+      display: inline-block;
+      text-align: left;
+      background-color: #f2f2f2;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #004080;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    button:hover {
+      background-color: #002f5f;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>College Bus Service</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="bus-details.html">Bus Details</a>
+      <a href="register.html">Register</a>
+      <a href="admin.html">Bus In-Charge</a>
+    </nav>
+  </header>
+
+  <!-- Background Image Section -->
+  <section class="hero">
+    <div class="overlay">
+      <h2>Welcome to College Bus Service</h2>
+    </div>
+  </section>
+
+  <!-- Registration/Login Form Section -->
+  <section class="form-section">
+    <h2>Register or Login</h2>
+    <form action="register.html" method="get">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username" required><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required><br>
+
+      <button type="submit">Login</button>
+      <a href="register.html"><button type="button">Register</button></a>
+    </form>
+  </section>
+
+</body>
+</html>
+
+    

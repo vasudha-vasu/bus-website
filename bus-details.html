@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bus Details - College Bus Service</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      text-align: center;
+      padding: 10px;
+      background-color: #003366;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .bus-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .bus-card:hover {
+      transform: scale(1.02);
+    }
+
+    .bus-card h2 {
+      margin-top: 0;
+      color: #004080;
+    }
+
+    .bus-info {
+      line-height: 1.6;
+    }
+
+    .bus-info strong {
+      color: #333;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        display: block;
+        padding: 10px 0;
+      }
+
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+
+      .bus-card {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>College Bus Service</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="bus-details.html">Bus Details</a>
+    <a href="register.html">Register</a>
+    <a href="admin.html">Bus In-Charge</a>
+  </nav>
+
+  <div class="container">
+    <div class="bus-card">
+      <h2>Bus No. 101</h2>
+      <div class="bus-info">
+        <p><strong>Route:</strong> Main Campus - Downtown - Station</p>
+        <p><strong>Driver Name:</strong> sunil</p>
+        <p><strong>Contact:</strong> +91 9876543210</p>
+      </div>
+    </div>
+
+    <div class="bus-card">
+      <h2>Bus No. 007</h2>
+      <div class="bus-info">
+        <p><strong>Route:</strong> aravind nagar</p>
+        <p><strong>Driver Name:</strong> Suresh </p>
+        <p><strong>Contact:</strong> +91 9123456780</p>
+      </div>
+    </div>
+
+    <div class="bus-card">
+      <h2>Bus No. 002</h2>
+      <div class="bus-info">
+        <p><strong>Route:</strong> housing board</p>
+        <p><strong>Driver Name:</strong> saikumar</p>
+        <p><strong>Contact:</strong> +91 9988776655</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
